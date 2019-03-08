@@ -1,0 +1,554 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("../images/james-donaldson-365418-unsplash.jpg");
+  background-size: cover;
+}
+
+nav .navbar-brand {
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  border-bottom: 2px solid red;
+}
+
+.line {
+  width: 70px;
+  height: 30px;
+  border-radius: 200px 200px;
+  position: relative;
+  -webkit-animation-name: line;
+  animation-name: line;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 45%;
+}
+
+.block {
+  width: 30px;
+  height: 200px;
+  background-color: #FD7272;
+  margin-left: 20px;
+  position: relative;
+  top: 0;
+  border-radius: 5px 5px;
+  -webkit-animation-name: block1;
+  animation-name: block1;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.block2 {
+  width: 30px;
+  height: 220px;
+  background-color: #55E6C1;
+  margin-left: 20px;
+  position: relative;
+  top: -220px;
+  left: 93%;
+  border-radius: 5px 5px;
+  -webkit-animation-name: block2;
+  animation-name: block2;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+@-webkit-keyframes block1 {
+  0% {
+    top: 0;
+    left: 20px;
+  }
+  20% {
+    top: 0;
+    left: 0;
+  }
+  40% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes block1 {
+  0% {
+    top: 0;
+    left: 20px;
+  }
+  20% {
+    top: 0;
+    left: 0;
+  }
+  40% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@-webkit-keyframes block2 {
+  0% {
+    top: -220px;
+    left: 90%;
+  }
+  20% {
+    top: -220px;
+    left: 95%;
+  }
+  40% {
+    top: -220px;
+    left: 95%;
+  }
+  100% {
+    top: -220px;
+    left: 95%;
+  }
+}
+
+@keyframes block2 {
+  0% {
+    top: -220px;
+    left: 90%;
+  }
+  20% {
+    top: -220px;
+    left: 95%;
+  }
+  40% {
+    top: -220px;
+    left: 95%;
+  }
+  100% {
+    top: -220px;
+    left: 95%;
+  }
+}
+
+@-webkit-keyframes line {
+  0% {
+    top: 120px;
+    left: 40px;
+  }
+  50% {
+    top: 120px;
+    left: 88%;
+    background-color: #FD7272;
+  }
+  100% {
+    top: 120px;
+    left: 50px;
+    background-color: #55E6C1;
+  }
+}
+
+@keyframes line {
+  0% {
+    top: 120px;
+    left: 40px;
+  }
+  50% {
+    top: 120px;
+    left: 88%;
+    background-color: #FD7272;
+  }
+  100% {
+    top: 120px;
+    left: 50px;
+    background-color: #55E6C1;
+  }
+}
+
+h1 {
+  background-color: #e84393;
+  color: white;
+  width: 250px;
+  margin: 50px auto;
+  padding: 10px 10px;
+  text-align: center;
+  border: #2d3436 2px solid;
+  border-radius: 70px 70px;
+}
+
+.gallary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 10px;
+  border-radius: 70px 70px;
+}
+
+.gallary img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px 70px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.gallary img:hover {
+  opacity: 0.8;
+}
+
+.gallary2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 10px;
+  border-radius: 70px 70px;
+}
+
+.gallary2 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px 70px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.gallary2 img:hover {
+  opacity: 0.8;
+}
+
+.gallary3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 10px;
+  border-radius: 70px 70px;
+}
+
+.gallary3 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px 70px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.gallary3 img:hover {
+  opacity: 0.8;
+}
+
+.gallary4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 10px;
+  border-radius: 70px 70px;
+}
+
+.gallary4 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px 70px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.gallary4 img:hover {
+  opacity: 0.8;
+}
+
+div span {
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+}
+
+div span:hover {
+  border-bottom: 2px solid red;
+  color: black;
+}
+
+.box1 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box1 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box2 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box2 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box3 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box3 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box4 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box4 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box5 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box5 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box6 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box6 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box7 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box7 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box8 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box8 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box9 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box9 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box10 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box10 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box11 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box11 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.box12 {
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  background-color: #57606f;
+  top: 0;
+  left: 200px;
+  border-radius: 20px 20px;
+  display: none;
+}
+
+.box12 img {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 120px;
+  top: 100px;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px;
+}
+
+.background div img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.background div p {
+  color: white;
+  font-size: 20px;
+}
+
+.background div p a {
+  color: red;
+}
+
+.footer {
+  margin-left: 40%;
+}
+
+.line, .block, .block2, div span, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12 {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+/*# sourceMappingURL=main.css.map */
