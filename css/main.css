@@ -882,8 +882,8 @@ div span:hover {
     color: white;
     font-size: 70px;
     position: absolute;
-    top: -27px;
-    right: 20px;
+    top: -30px;
+    left: 20px;
     cursor: pointer;
   }
   div span:hover {
