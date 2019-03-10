@@ -546,6 +546,354 @@ div span:hover {
 .footer {
   margin-left: 40%;
 }
+@media screen and (max-width: 576px) {
+  .block2 {
+    left: 82%;
+  }
+  @-webkit-keyframes block2 {
+    0% {
+      top: -220px;
+      left: 80%;
+    }
+    20% {
+      top: -220px;
+      left: 85%;
+    }
+    40% {
+      top: -220px;
+      left: 85%;
+    }
+    100% {
+      top: -220px;
+      left: 85%;
+    }
+  }
+  @keyframes block2 {
+    0% {
+      top: -220px;
+      left: 80%;
+    }
+    20% {
+      top: -220px;
+      left: 85%;
+    }
+    40% {
+      top: -220px;
+      left: 85%;
+    }
+    100% {
+      top: -220px;
+      left: 85%;
+    }
+  }
+  @-webkit-keyframes line {
+    0% {
+      top: 120px;
+      left: 40px;
+    }
+    50% {
+      top: 120px;
+      left: 70%;
+      background-color: #FD7272;
+    }
+    100% {
+      top: 120px;
+      left: 50px;
+      background-color: #55E6C1;
+    }
+  }
+  @keyframes line {
+    0% {
+      top: 120px;
+      left: 40px;
+    }
+    50% {
+      top: 120px;
+      left: 70%;
+      background-color: #FD7272;
+    }
+    100% {
+      top: 120px;
+      left: 50px;
+      background-color: #55E6C1;
+    }
+  }
+  .gallary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 10px;
+  }
+  .gallary img {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .gallary2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 10px;
+  }
+  .gallary2 img {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .gallary3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 10px;
+  }
+  .gallary3 img {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .gallary4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 10px;
+  }
+  .gallary4 img {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .box1 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box1 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box2 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box2 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box3 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box3 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box4 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box4 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box5 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box5 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box6 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box6 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box7 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box7 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box8 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box8 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box9 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box9 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box10 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box10 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box11 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box11 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  .box12 {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: #57606f;
+    top: 70px;
+    left: 0;
+    border-radius: 20px 20px;
+    display: none;
+  }
+  .box12 img {
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  div span {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: -27px;
+    right: 20px;
+    cursor: pointer;
+  }
+  div span:hover {
+    border-bottom: 2px solid red;
+    color: black;
+  }
+  .footer {
+    margin-left: 20%;
+  }
+}
 
 .line, .block, .block2, div span, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12 {
   -webkit-transition: all 1s ease-in-out;
