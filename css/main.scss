@@ -316,6 +316,142 @@ div span {
  .footer{
      margin-left:40%;
  }
+ //////////////////////////// Media /////////////////////
+
+
+@media screen and (max-width:576px){
+    .block2{
+        left:82%;
+    }
+    @keyframes block2{
+    
+        0%{
+            top:-220px;
+            left:80%;
+        }
+        20%{
+            top:-220px;
+            left:85%;
+        }
+        40%{
+            top:-220px;
+            left:85%;
+        }
+      
+      
+        100%{
+            top:-220px;
+            left:85%;
+        }
+    }
+    @keyframes line{
+        0%{
+            top:120px;
+            left:40px;
+        }
+       
+        50%{
+            top:120px;
+            left:70%;
+            background-color: #FD7272;
+            
+    
+        }
+        100%{
+            top:120px;
+            left:50px;
+            background-color: #55E6C1;
+    
+        }
+    
+        
+    }
+    .gallary{
+        display:flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        img{
+            margin-top:20px;
+            margin-left:30px;
+            
+        }
+    }
+    .gallary2{ 
+        display:flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        img{
+            margin-top:20px;
+            margin-left:30px;
+            
+        }
+    }
+    .gallary3{
+        display:flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        img{
+            margin-top:20px;
+            margin-left:30px;
+            
+        }
+    }
+    .gallary4{
+        
+        display:flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        img{
+            margin-top:20px;
+            margin-left:30px;
+            
+        }
+    }
+    @for $i from 1 through 12 {
+        .box#{$i}{
+            position: fixed;
+            width:400px;
+            height:400px;
+            background-color: #57606f;
+            top:70px;
+            left:0;
+            border-radius: 20px 20px;
+            display:none;
+            img{
+                width: 85%;
+                height: 85%;
+                position: relative;
+                left:20px;
+                top:50px;
+                
+                
+            }
+    
+        }
+    
+    }
+    div span {
+        color:white;
+        font-size: 70px;
+        position: absolute;
+        top:-27px;
+        right: 20px;
+        cursor: pointer;
+        &:hover{
+            border-bottom: 2px solid red;
+            color:black;
+    
+    
+        }
+    
+    
+    }
+    .footer{
+        margin-left:20%;
+    }
+
+
+}
 
 
 
