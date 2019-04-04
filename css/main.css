@@ -547,6 +547,10 @@ div span:hover {
   margin-left: 40%;
 }
 @media screen and (max-width: 576px) {
+  body {
+  background-image: url("../images/james-donaldson-365418-unsplash.jpg");
+  background-size: cover;
+}
   .block2 {
     left: 82%;
   }
